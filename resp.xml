@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<OTA_VehAvailRateRS SequenceNmbr="1" Target="Test" TimeStamp="2015-06-15T19:33:00" TransactionIdentifier="100000001" Version="3.0" xmlns="http://www.opentravel.org/OTA/2003/05">
+	<Success/>
+	<VehAvailRSCore>
+		<VehRentalCore PickUpDateTime="2015-07-28T12:00:00" ReturnDateTime="2015-08-04T03:45:00">
+			<PickUpLocation LocationCode="DABT71"/>
+			<ReturnLocation LocationCode="DABT71"/>
+		</VehRentalCore>
+		<VehVendorAvails>
+			<VehVendorAvail>
+				<Vendor Code="AL" CompanyShortName="ALAMO"/>
+				<VehAvails>
+					<VehAvail>
+						<VehAvailCore Status="Available">
+							<Vehicle AirConditionInd="true" BaggageQuantity="2" PassengerQuantity="4" TransmissionType="Automatic">
+								<VehType VehicleCategory="1"/>
+								<VehClass Size="3"/>
+								<VehMakeModel Code="ECAR" Name="CHEVROLET SPARK OR SIMILAR"/>
+								<PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+							</Vehicle>
+							<RentalRate>
+								<RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+								<VehicleCharges>
+									<VehicleCharge Amount="250.00" CurrencyCode="USD" Description="Base Rate" Purpose="1" TaxInclusive="false">
+										<Calculation Quantity="1" UnitCharge="250.00" UnitName="Week"/>
+									</VehicleCharge>
+									<VehicleCharge Amount="0.00" CurrencyCode="USD" Description="Drop Charge" Purpose="2" TaxInclusive="false">
+										<Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+									</VehicleCharge>
+								</VehicleCharges>
+								<RateQualifier CorpDiscountNmbr="XMLRTA" RatePeriod="Weekly" RateQualifier="AW7"/>
+							</RentalRate>
+							<TotalCharge CurrencyCode="USD" EstimatedTotalAmount="352.28" RateTotalAmount="250.00"/>
+							<Fees>
+								<Fee Amount="34.93" CurrencyCode="USD" Description="ROADSIDE PLUS" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="4"/>
+								<Fee Amount="28.38" CurrencyCode="USD" Description="AIRPORT ACCESS FEE 11.11 PCT" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="0.14" CurrencyCode="USD" Description="TIRE/BATTERY FEE .02/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="14.00" CurrencyCode="USD" Description="FLORIDA SURCHARGE 2.00/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="5.46" CurrencyCode="USD" Description="VEHICLE LICENSE FEE .78/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="19.37" CurrencyCode="USD" Description="SALES TAX" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="7"/>
+							</Fees>
+							<Reference DateTime="2015-06-15T19:33:00" ID="AW7" Type="16"/>
+						</VehAvailCore>
+						<VehAvailInfo/>
+					</VehAvail>
+					<VehAvail>
+						<VehAvailCore Status="Available">
+							<Vehicle AirConditionInd="true" BaggageQuantity="2" PassengerQuantity="5" TransmissionType="Automatic">
+								<VehType VehicleCategory="1"/>
+								<VehClass Size="4"/>
+								<VehMakeModel Code="CCAR" Name="NISSAN VERSA OR SIMILAR"/>
+								<PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+							</Vehicle>
+							<RentalRate>
+								<RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+								<VehicleCharges>
+									<VehicleCharge Amount="260.00" CurrencyCode="USD" Description="Base Rate" Purpose="1" TaxInclusive="false">
+										<Calculation Quantity="1" UnitCharge="260.00" UnitName="Week"/>
+									</VehicleCharge>
+									<VehicleCharge Amount="0.00" CurrencyCode="USD" Description="Drop Charge" Purpose="2" TaxInclusive="false">
+										<Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+									</VehicleCharge>
+								</VehicleCharges>
+								<RateQualifier CorpDiscountNmbr="XMLRTA" RatePeriod="Weekly" RateQualifier="AW7"/>
+							</RentalRate>
+							<TotalCharge CurrencyCode="USD" EstimatedTotalAmount="364.11" RateTotalAmount="260.00"/>
+							<Fees>
+								<Fee Amount="34.93" CurrencyCode="USD" Description="ROADSIDE PLUS" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="4"/>
+								<Fee Amount="29.49" CurrencyCode="USD" Description="AIRPORT ACCESS FEE 11.11 PCT" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="0.14" CurrencyCode="USD" Description="TIRE/BATTERY FEE .02/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="14.00" CurrencyCode="USD" Description="FLORIDA SURCHARGE 2.00/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="5.46" CurrencyCode="USD" Description="VEHICLE LICENSE FEE .78/DAY" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="5"/>
+								<Fee Amount="20.09" CurrencyCode="USD" Description="SALES TAX" IncludedInEstTotalInd="false " IncludedInRate="false" Purpose="7"/>
+							</Fees>
+							<Reference DateTime="2015-06-15T19:33:00" ID="AW7" Type="16"/>
+						</VehAvailCore>
+						<VehAvailInfo/>
+					</VehAvail>
+				</VehAvails>
+			</VehVendorAvail>
+		</VehVendorAvails>
+	</VehAvailRSCore>
+</OTA_VehAvailRateRS>
