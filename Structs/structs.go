@@ -67,10 +67,16 @@ type Vehicle struct {
 	PassengerQuantity string `xml:"PassengerQuantity,attr"`
 	VehType           VehType
 	VehClass          VehClass
+	VehMakeModel      VehMakeModel
+	PictureURL        string `xml:"PictureURL"`
 }
 type VehType struct {
 	VehicleCategory string `xml:"VehicleCategory,attr"`
 }
 type VehClass struct {
 	Size string `xml:"Size,attr"`
+}
+type VehMakeModel struct {
+	Code string `xml:"Code,attr"`
+	Name string `xml:"Name,attr"`
 }
