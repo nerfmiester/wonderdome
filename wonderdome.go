@@ -81,9 +81,13 @@ func ProviderHandler(w http.ResponseWriter, r *http.Request) {
 		s1 = append(s1, tv)
 
 	}
+	p.SetTypVehicle(s1)
 
 	for _, sx := range s1 {
 		fmt.Println("AirCond = ", sx.AirConditionInd)
+		fmt.Println("Baggage qty = ", sx.BaggageQuantity)
+		fmt.Println("Vehicle name = ", sx.VehMakeModel.Name)
+		fmt.Println("Vehicle Code = ", sx.VehMakeModel.Code)
 	}
 	s = append(s, p)
 	p.SetName("billy")
@@ -95,13 +99,13 @@ func ProviderHandler(w http.ResponseWriter, r *http.Request) {
 	t := s
 	j := t
 
-	for i, s2 := range s {
-		fmt.Println("iiiiiii : ", i)
-		fmt.Println("s2s2s2s2 : ", s2)
-		for _, sx := range s1 {
-			fmt.Println("i2i2i2i : ", i)
-			s2.SetTypVehicle(sx, i)
-		}
+	for _, s2 := range s {
+		s2.SetTypVehicle(s1)
+	}
+
+	for _, sd := range s {
+		fmt.Println("Provider -> ", sd.GetProvider())
+
 	}
 
 	arr := j

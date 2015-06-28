@@ -62,8 +62,8 @@ type VehAvailInfo struct {
 }
 type Vehicle struct {
 	TransmissionType  string `xml:"TransmissionType,attr"`
-	AirConditionInd   string `xml:"AirConditionInd,attr"`
-	BaggageQuantity   string `xml:"BaggageQuantity,attr"`
+	AirConditionInd   bool   `xml:"AirConditionInd,attr"`
+	BaggageQuantity   int    `xml:"BaggageQuantity,attr"`
 	PassengerQuantity string `xml:"PassengerQuantity,attr"`
 	VehType           VehType
 	VehClass          VehClass

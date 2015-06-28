@@ -47,7 +47,11 @@ func (vm *VehMkeModel) SetName(s string) {
 func (p *Provider) SetName(s string) {
 	p.Name = s
 }
-func (p *Provider) SetTypVehicle(s TypVehicle, i int) {
+func (p *Provider) GetProvider() (prov *Provider) {
+	return p
+}
+func (p *Provider) SetTypVehicle(s []TypVehicle) {
 	fmt.Println("whoops : ", s)
-	p.TypVehicles[i] = s
+	p.TypVehicles = s
+
 }
