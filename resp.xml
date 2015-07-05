@@ -76,7 +76,478 @@
 						</VehAvailCore>
 						<VehAvailInfo/>
 					</VehAvail>
+					                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="4" PassengerQuantity="5">
+                                        <VehType VehicleCategory="1"/>
+                                        <VehClass Size="7"/>
+                                        <VehMakeModel Name="CHRYSLER 200 OR SIMILAR" Code="SCAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="280.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="280.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="280.00" EstimatedTotalAmount="387.78" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="31.71" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="21.54" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="5" PassengerQuantity="5">
+                                        <VehType VehicleCategory="1"/>
+                                        <VehClass Size="8"/>
+                                        <VehMakeModel Name="FUSION OR SIMILAR" Code="FCAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="290.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="290.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="290.00" EstimatedTotalAmount="399.62" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="32.83" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="22.26" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="6" PassengerQuantity="5">
+                                        <VehType VehicleCategory="1"/>
+                                        <VehClass Size="10"/>
+                                        <VehMakeModel Name="MAXIMA OR SIMILAR" Code="PCAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="345.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="345.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="345.00" EstimatedTotalAmount="464.70" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="38.94" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="26.23" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="4" PassengerQuantity="7">
+                                        <VehType VehicleCategory="2"/>
+                                        <VehClass Size="1"/>
+                                        <VehMakeModel Name="DODGE GRAND CARAVAN OR SIMILAR" Code="MVAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="445.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="445.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="445.00" EstimatedTotalAmount="583.03" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="50.05" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="33.45" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="4" PassengerQuantity="8">
+                                        <VehType VehicleCategory="2"/>
+                                        <VehClass Size="7"/>
+                                        <VehMakeModel Name="SIENNA LE 8 PASSENGER OR SIMILAR" Code="SVAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="645.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="645.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7M" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="645.00" EstimatedTotalAmount="784.77" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="72.27" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="47.90" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7M"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="7" PassengerQuantity="15">
+                                        <VehType VehicleCategory="2"/>
+                                        <VehClass Size="8"/>
+                                        <VehMakeModel Name="CHEVROLET EXPRESS OR SIMILAR" Code="FVAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="645.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="645.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7M" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="645.00" EstimatedTotalAmount="769.86" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="72.27" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="46.99" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7M"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="3" PassengerQuantity="5">
+                                        <VehType VehicleCategory="3"/>
+                                        <VehClass Size="6"/>
+                                        <VehMakeModel Name="RAV4 SPORT OR SIMILAR" Code="IFAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="495.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="495.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7M" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="495.00" EstimatedTotalAmount="607.26" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="55.60" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="37.06" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7M"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="4" PassengerQuantity="5">
+                                        <VehType VehicleCategory="3"/>
+                                        <VehClass Size="7"/>
+                                        <VehMakeModel Name="SANTA FE OR SIMILAR" Code="SFAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="445.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="445.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="445.00" EstimatedTotalAmount="583.03" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="50.05" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="33.45" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true">
+                                        <VehType VehicleCategory="22"/>
+                                        <VehClass Size="6"/>
+                                        <VehMakeModel Name="ROGUE S 2WD OR SIMILAR" Code="IGAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="395.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="395.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="395.00" EstimatedTotalAmount="523.86" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="44.49" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="29.84" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="2" PassengerQuantity="5">
+                                        <VehType VehicleCategory="22"/>
+                                        <VehClass Size="8"/>
+                                        <VehMakeModel Name="EDGE SE FWD OR SIMILAR" Code="FGAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="545.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="545.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7M" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="545.00" EstimatedTotalAmount="666.43" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="61.16" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="40.67" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7M"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="4" PassengerQuantity="7">
+                                        <VehType VehicleCategory="22"/>
+                                        <VehClass Size="10"/>
+                                        <VehMakeModel Name="ACADIA OR SIMILAR" Code="PGAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="495.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="495.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="495.00" EstimatedTotalAmount="642.19" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="55.60" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="37.06" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true" BaggageQuantity="2" PassengerQuantity="4">
+                                        <VehType VehicleCategory="4"/>
+                                        <VehClass Size="7"/>
+                                        <VehMakeModel Name="MUSTANG CONVERTIBLE OR SIMILAR" Code="STAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="345.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="345.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="345.00" EstimatedTotalAmount="464.70" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="38.94" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="26.23" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
+                            <VehAvail>
+                                <VehAvailCore Status="Available">
+                                    <Vehicle TransmissionType="Automatic" AirConditionInd="true">
+                                        <VehType VehicleCategory="9"/>
+                                        <VehClass Size="7"/>
+                                        <VehMakeModel Name="CHEVROLET COLORADO OR SIMILAR" Code="SPAR"/>
+                                        <PictureURL>https://assets.alamo.com/content/dam/global-vehicle-images/na/na-image-not-available-330x190-angle.png</PictureURL>
+                                    </Vehicle>
+                                    <RentalRate>
+                                        <RateDistance VehiclePeriodUnitName="RentalPeriod" DistUnitName="Mile" Unlimited="true"/>
+                                        <VehicleCharges>
+                                            <VehicleCharge Amount="445.00" CurrencyCode="USD" TaxInclusive="false" Purpose="1" Description="Base Rate">
+                                                <Calculation UnitCharge="445.00" UnitName="Week" Quantity="1"/>
+                                            </VehicleCharge>
+                                            <VehicleCharge Amount="0.00" CurrencyCode="USD" TaxInclusive="false" Purpose="2" Description="Drop Charge">
+                                                <Calculation UnitCharge="0.00" UnitName="RentalPeriod"/>
+                                            </VehicleCharge>
+                                        </VehicleCharges>
+                                        <RateQualifier CorpDiscountNmbr="XMLRTA" RateQualifier="AW7" RatePeriod="Weekly"/>
+                                    </RentalRate>
+                                    <TotalCharge RateTotalAmount="445.00" EstimatedTotalAmount="583.03" CurrencyCode="USD"/>
+                                    <Fees>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="34.93" Description="ROADSIDE PLUS" Purpose="4"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="50.05" Description="AIRPORT ACCESS FEE 11.11 PCT" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="0.14" Description="TIRE/BATTERY FEE .02/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="14.00" Description="FLORIDA SURCHARGE 2.00/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="5.46" Description="VEHICLE LICENSE FEE .78/DAY" Purpose="5"/>
+                                        <Fee CurrencyCode="USD" IncludedInRate="false" IncludedInEstTotalInd="false " Amount="33.45" Description="SALES TAX" Purpose="7"/>
+                                    </Fees>
+                                    <Reference Type="16" DateTime="2015-06-15T19:33:00" ID="AW7"/>
+                                </VehAvailCore>
+                                <VehAvailInfo/>
+                            </VehAvail>
 				</VehAvails>
+				                        <Info>
+                            <LocationDetails>
+                                <AdditionalInfo>
+                                    <VehRentLocInfos>
+                                        <VehRentLocInfo Title="ADDITIONAL DRIVER" Type="1">
+                                            <SubSection>
+                                                <Paragraph>
+                                                    <Text>All additional drivers must meet all rental requirements. Additional drivers must appear at the rental counter with the primary renter. Additional drivers must sign the rental agreement. An additional daily fee may apply for any Additional Drivers. The additional driver can only be added to the contract at the pick up location. Note: State law in California, Illinois, Missouri, Nevada, Oregon, and Wisconsin allow the spouse to be an automatic authorized driver as long as renter requirements are met.</Text>
+                                                </Paragraph>
+                                            </SubSection>
+                                        </VehRentLocInfo>
+                                        <VehRentLocInfo Title="After Hours Policy" Type="1">
+                                            <SubSection>
+                                                <Paragraph>
+                                                    <Text>7:30AM-11PM (AH - 11 P - 7:30 A) If returning after hours, please place the keys and the rental jacket in the Alamo return drop box located at the rental counter inside the Airport terminal.</Text>
+                                                </Paragraph>
+                                            </SubSection>
+                                        </VehRentLocInfo>
+                                        <VehRentLocInfo Title="AGE REQUIREMENTS" Type="1">
+                                            <SubSection>
+                                                <Paragraph>
+                                                    <Text>Minimum age to rent a vehicle is 21, except in NY and MI, where the minimum age to rent is 18. Rental rates may be higher for renters and additional drivers under the age of 25 (to view young driver fee, please go to the reservation page and select the location). Certain specialty and larger sized vehicles may not be available for rentals when the renter or additional driver is under 25.</Text>
+                                                </Paragraph>
+                                            </SubSection>
+                                        </VehRentLocInfo>
+                                        <VehRentLocInfo Title="FORMS OF PAYMENT" Type="1">
+                                            <SubSection>
+                                                <Paragraph>
+                                                    <Text>Credit Card A credit card, with available credit and in the renters name, must be presented. The signature on the back must match the name imprinted on the card. In addition, if the renter has an online transaction, the number and name printed on the card presented by renter must match the name and number stored for the online transaction. Credit Cards honored: American Express, MasterCard, VISA, Discover, JCB.Puerto Rico: The following credit cards are accepted for rentals in Puerto Rico: American Express, MasterCard, VISA, Diners Club, Discover. Pre-Pay Reservations Pre-Pay reservations cannot be modified, changed or cancelled online; you must call 1-800 GO ALAMO (800-462-5266). Changes to pickup and/or drop-off location will require a cancellation of the original reservation and re-booking of new reservation with current rates. If the reservation is cancelled more than 24 hours before the pick up time, a $5 cancellation fee will be assessed. If the reservation is cancelled within 24 hours of the pick up or is not picked up at all, a $10 no-show fee will be assessed. Any optional insurance or CDW product selected at the time of reservation may be cancelled at the counter at the time of rental without incurring a cancellation fee.</Text>
+                                                </Paragraph>
+                                            </SubSection>
+                                        </VehRentLocInfo>
+                                        <VehRentLocInfo Title="RENTER REQUIREMENTS" Type="1">
+                                            <SubSection>
+                                                <Paragraph>
+                                                    <Text>A valid drivers license from the customers country of residence is required and must be presented at time of rental. The drivers license must be valid for the entire rental period. If the drivers license is in a language other than English, an International Drivers Permit is required along with the drivers license. Exceptions: Japanese travelers may use the Japanese Drivers License Translation Service, which replaces the need for an International Drivers Permit. At California, Nevada and Phoenix-area airports and rental locations, renters with drivers licenses issued outside of the United States or its territories must produce a valid Passport. US Territories include American Samoa, Guam, the U.S. Virgin Islands, Puerto Rico, the Federated States of Micronesia, and the Midway Islands.</Text>
+                                                </Paragraph>
+                                            </SubSection>
+                                        </VehRentLocInfo>
+                                    </VehRentLocInfos>
+                                </AdditionalInfo>
+                            </LocationDetails>
+                            <TPA_Extensions>
+                                <TPA_Extensions_Inf RentalDuration="7"/>
+                                <TPA_Extension_Flags Type="OffLocServiceStatus" CustDropOff="NotAvailable" CustPickUp="NotAvailable"/>
+                            </TPA_Extensions>
+                        </Info>
 			</VehVendorAvail>
 		</VehVendorAvails>
 	</VehAvailRSCore>

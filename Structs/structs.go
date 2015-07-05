@@ -21,7 +21,52 @@ type VehVendorAvail struct {
 	XMLName   xml.Name `xml:"VehVendorAvail"`
 	Vendor    Vendor
 	VehAvails VehAvails `xml:"VehAvails"`
+	Info      Info      `xml:"Info"`
 }
+type Info struct {
+	LocationDetails LocationDetails
+	TPA_Extensions  TPA_Extensions
+}
+
+type LocationDetails struct {
+	AdditionalInfo AdditionalInfo
+}
+
+type AdditionalInfo struct {
+	VehRentLocInfos VehRentLocInfos
+}
+type VehRentLocInfos struct {
+	VehRentLocInfo []VehRentLocInfo
+}
+type VehRentLocInfo struct {
+	Title      string `xml:"Title,attr"`
+	Type       int    `xml:"Type,attr"`
+	SubSection SubSection
+}
+
+type SubSection struct {
+	Paragraph Paragraph
+}
+
+type Paragraph struct {
+	Text string `xml:"Text"`
+}
+
+type TPA_Extensions struct {
+	TPA_Extensions_Inf  TPA_Extensions_Inf
+	TPA_Extension_Flags TPA_Extension_Flags
+}
+
+type TPA_Extensions_Inf struct {
+	RentalDuration int `xml:"RentalDuration,attr"`
+}
+
+type TPA_Extension_Flags struct {
+	Type        string `xml:"Type,attr"`
+	CustDropOff string `xml:"CustDropOff,attr"`
+	CustPickUp  string `xml:"CustPickUp,attr"`
+}
+
 type VehAvails struct {
 	XMLName  xml.Name   `xml:"VehAvails"`
 	VehAvail []VehAvail `xml:"VehAvail"`
@@ -53,9 +98,10 @@ type Vendor struct {
 	CompanyShortName string `xml:"CompanyShortName,attr"`
 }
 type VehAvailCore struct {
-	XMLName xml.Name `xml:"VehAvailCore"`
-	Status  string   `xml:"Status,attr"`
-	Vehicle Vehicle
+	XMLName    xml.Name `xml:"VehAvailCore"`
+	Status     string   `xml:"Status,attr"`
+	Vehicle    Vehicle
+	RentalRate RentalRate
 }
 type VehAvailInfo struct {
 	XMLName xml.Name `xml:"VehAvailInfo"`
@@ -64,19 +110,46 @@ type Vehicle struct {
 	TransmissionType  string `xml:"TransmissionType,attr"`
 	AirConditionInd   bool   `xml:"AirConditionInd,attr"`
 	BaggageQuantity   int    `xml:"BaggageQuantity,attr"`
-	PassengerQuantity string `xml:"PassengerQuantity,attr"`
+	PassengerQuantity int    `xml:"PassengerQuantity,attr"`
 	VehType           VehType
 	VehClass          VehClass
 	VehMakeModel      VehMakeModel
 	PictureURL        string `xml:"PictureURL"`
 }
 type VehType struct {
-	VehicleCategory string `xml:"VehicleCategory,attr"`
+	VehicleCategory int `xml:"VehicleCategory,attr"`
 }
 type VehClass struct {
-	Size string `xml:"Size,attr"`
+	Size int `xml:"Size,attr"`
 }
 type VehMakeModel struct {
 	Code string `xml:"Code,attr"`
 	Name string `xml:"Name,attr"`
+}
+type RentalRate struct {
+	RateDistance   RateDistance
+	VehicleCharges VehicleCharges
+	RateQualifier  RateQualifier
+}
+type RateDistance struct {
+	XMLName               xml.Name `xml:"RateDistance"`
+	DistUnitName          string   `xml:"DistUnitName,attr"`
+	VehiclePeriodUnitName string   `xml:"VehiclePeriodUnitName,attr"`
+	Unlimited             bool     `xml:"Unlimited,attr"`
+}
+type VehicleCharges struct {
+	XMLName       xml.Name        `xml:"VehicleCharges"`
+	VehicleCharge []VehicleCharge `xml:"VehicleCharge"`
+}
+type VehicleCharge struct {
+	Amount       float64 `xml:"Amount,attr"`
+	CurrencyCode string  `xml:"CurrencyCode,attr"`
+	TaxInclusive bool    `xml:"TaxInclusive,attr"`
+	Purpose      int     `xml:"Purpose,attr"`
+	Description  string  `xml:"Description,attr"`
+}
+type RateQualifier struct {
+	CorpDiscountNmbr string `xml:"CorpDiscountNmbr,attr"`
+	RateQualifier    string `xml:"RateQualifier,attr"`
+	RatePeriod       string `xml:"RatePeriod,attr"`
 }

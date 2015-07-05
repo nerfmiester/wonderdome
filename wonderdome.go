@@ -27,6 +27,18 @@ var tv Structs.TypVehicle
 
 var atv []Structs.TypVehicle
 
+var rates Structs.Rates
+
+var chrg Structs.Charge
+
+var qual Structs.Qualifier
+
+var loc Structs.LocDetails
+
+var vRLI Structs.VehRentLocInf
+
+var infoM Structs.InfoM
+
 func main() {
 
 	r := mux.NewRouter()
@@ -67,6 +79,8 @@ func ProviderHandler(w http.ResponseWriter, r *http.Request) {
 
 	s := make([]Structs.Provider, 0)
 	s1 := make([]Structs.TypVehicle, 0)
+	sCharge := make([]Structs.Charge, 0)
+	sLocD := make([]Structs.VehRentLocInf, 0)
 
 	p.SetName(v.VehAvailRSCore.VehVendorAvails.VehVendorAvail.Vendor.CompanyShortName)
 	for _, veh := range v.VehAvailRSCore.VehVendorAvails.VehVendorAvail.VehAvails.VehAvail {
@@ -76,37 +90,65 @@ func ProviderHandler(w http.ResponseWriter, r *http.Request) {
 
 		tv.SetAirConditionInd(veh.VehAvailCore.Vehicle.AirConditionInd)
 		tv.SetBaggageQuantity(veh.VehAvailCore.Vehicle.BaggageQuantity)
+		tv.SetPassengerQuantity(veh.VehAvailCore.Vehicle.PassengerQuantity)
+		tv.SetTransmissionType(veh.VehAvailCore.Vehicle.TransmissionType)
+		tv.SetPictureURL(veh.VehAvailCore.Vehicle.PictureURL)
+		tv.SetVehicleCategory(veh.VehAvailCore.Vehicle.VehType.VehicleCategory)
+		tv.SetSize(veh.VehAvailCore.Vehicle.VehClass.Size)
 		tv.SetVehMkeModel(mk)
+
+		// Rates
+
+		rates.SetUnitDistance(veh.VehAvailCore.RentalRate.RateDistance.DistUnitName)
+		rates.SetUnLimited(veh.VehAvailCore.RentalRate.RateDistance.Unlimited)
+		rates.SetVehiclePeriodUnitName(veh.VehAvailCore.RentalRate.RateDistance.VehiclePeriodUnitName)
+
+		qual.SetCorpDiscountNmbr(veh.VehAvailCore.RentalRate.RateQualifier.CorpDiscountNmbr)
+		qual.SetRateQualifier(veh.VehAvailCore.RentalRate.RateQualifier.RateQualifier)
+		qual.SetRatePeriod(veh.VehAvailCore.RentalRate.RateQualifier.RatePeriod)
+
+		rates.SetQualifier(qual)
+
+		// Charges
+
+		for _, chg := range veh.VehAvailCore.RentalRate.VehicleCharges.VehicleCharge {
+
+			chrg.Amount = chg.Amount
+			chrg.CurrencyCode = chg.CurrencyCode
+			chrg.Description = chg.Description
+			chrg.Purpose = chg.Purpose
+			chrg.TaxInclusive = chg.TaxInclusive
+
+			sCharge = append(sCharge, chrg)
+
+		}
+
+		rates.SetCharges(sCharge)
+
+		sCharge = nil
+
+		tv.SetRates(rates)
+
+		fmt.Println("rates -> ", rates)
 
 		s1 = append(s1, tv)
 
 	}
 	p.SetTypVehicle(s1)
-
-	for _, sx := range s1 {
-		fmt.Println("AirCond = ", sx.AirConditionInd)
-		fmt.Println("Baggage qty = ", sx.BaggageQuantity)
-		fmt.Println("Vehicle name = ", sx.VehMakeModel.Name)
-		fmt.Println("Vehicle Code = ", sx.VehMakeModel.Code)
+	sLocD = nil
+	for _, ix := range v.VehAvailRSCore.VehVendorAvails.VehVendorAvail.Info.LocationDetails.AdditionalInfo.VehRentLocInfos.VehRentLocInfo {
+		vRLI.SetTitle(ix.Title)
+		vRLI.SetText(ix.SubSection.Paragraph.Text)
+		vRLI.SetType(ix.Type)
+		sLocD = append(sLocD, vRLI)
 	}
+	loc.SetVehRentLocInfo(sLocD)
+	infoM.SetLocDetails(loc)
+	p.SetInfoM(infoM)
 	s = append(s, p)
-	p.SetName("billy")
-	s = append(s, p)
-	p.SetName("frankie")
-	s = append(s, p)
-	p.SetName("doozie")
-	s = append(s, p)
+
 	t := s
 	j := t
-
-	for _, s2 := range s {
-		s2.SetTypVehicle(s1)
-	}
-
-	for _, sd := range s {
-		fmt.Println("Provider -> ", sd.GetProvider())
-
-	}
 
 	arr := j
 
